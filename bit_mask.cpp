@@ -12,8 +12,6 @@ int main()
 
 	std::uint8_t myArticleFlags{option_favorited};
 
-	// Place all lines of code for the following quiz here
-
 	myArticleFlags = (myArticleFlags | option_viewed);
 
 	if (myArticleFlags & option_deleted)
